@@ -1,0 +1,67 @@
+project_id = "sgarwrreywadxsodnxng"
+
+[functions.admin-change-plan]
+verify_jwt = true
+
+[functions.send-2fa-code]
+verify_jwt = false
+
+[functions.verify-2fa-code]
+verify_jwt = false
+
+[functions.validate-client-session]
+verify_jwt = false
+
+[functions.approval-media-urls]
+verify_jwt = false
+
+[functions.archive-contents]
+verify_jwt = true
+
+[functions.create-team-member]
+verify_jwt = true
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.exchange-facebook-token]
+verify_jwt = false
+
+[functions.facebook-data-deletion]
+verify_jwt = false
+
+[functions.validate-approval-token]
+verify_jwt = false
+
+[functions.notify-ip-unblock]
+verify_jwt = false
+
+[functions.subscription-enforcement]
+verify_jwt = false
+
+[functions.check-payment-notifications]
+verify_jwt = false
+
+[functions.send-platform-notifications]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.create-billing-portal]
+verify_jwt = true
+
+[functions.cleanup-orphaned-accounts]
+verify_jwt = false
+
+[functions.daily-report]
+verify_jwt = false
+
+[functions.collect-financial-snapshot]
+verify_jwt = false
+
+[functions.get-media-url]
+verify_jwt = true
+
+[storage]
+file_size_limit = "100MiB"
